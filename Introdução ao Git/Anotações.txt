@@ -3,11 +3,13 @@ O Git Bash é um terminal extendido para otimizar o uso do Git
 O Git hospedam os repositórios Git gratuitamente
 Controle de versões em nossos projetos
 Comandos para o Git:
-Criar uma nova pasta criadamkdir nome_da_pasta e 
-Rara entrar na pasta criada cd nome_da_pasta 
+Criar uma nova pasta; criadamkdir nome_da_pasta  
+Para entrar na pasta criada; cd nome_da_pasta 
 url_que_você_copiou_do_repositorio git clone 
-Entrar na pasta do repositorio criado cd nome_do_repositorio 
-Mostra em qual branch esta git status  
-Comando para adicionar todos os seus arquivos com alterações git add 
-Para criar uma nova branch git checkout -b “nome_da_sua_branch”
+Entrar na pasta do repositório criado; cd nome_do_repositorio 
+Mostra em qual branch está; git status  
+Comando para adicionar todos os seus arquivos com alterações; git add .
+Para criar uma nova branch; git checkout -b “nome_da_sua_branch”
 Agora é só fazer o commit. 
+git commit -m "Escrever sua mensagem, comentário"
+git push origin main; para enviar os commit para o gitHub
